@@ -13,7 +13,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            开始免费试用
+            Start Your Free Trial
           </motion.h2>
           <motion.p 
             className="section-subtitle"
@@ -22,7 +22,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            填写下面的表单，我们的团队将在24小时内与您联系。
+            Fill out the form below and our team will contact you within 24 hours.
           </motion.p>
         </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
           <form className="space-y-6">
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                姓名
+                Name
               </label>
               <div className="mt-1">
                 <input
@@ -44,14 +44,14 @@ const Contact = () => {
                   name="name"
                   id="name"
                   className="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                  placeholder="请输入您的姓名"
+                  placeholder="Enter your name"
                 />
               </div>
             </div>
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                电子邮箱
+                Email
               </label>
               <div className="mt-1">
                 <input
@@ -59,14 +59,14 @@ const Contact = () => {
                   name="email"
                   id="email"
                   className="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                  placeholder="请输入您的电子邮箱"
+                  placeholder="Enter your email address"
                 />
               </div>
             </div>
 
             <div>
               <label htmlFor="phone" className="block text-sm font-medium text-gray-700">
-                电话
+                Phone
               </label>
               <div className="mt-1">
                 <input
@@ -74,14 +74,14 @@ const Contact = () => {
                   name="phone"
                   id="phone"
                   className="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                  placeholder="请输入您的电话号码"
+                  placeholder="Enter your phone number"
                 />
               </div>
             </div>
 
             <div>
               <label htmlFor="company" className="block text-sm font-medium text-gray-700">
-                公司/餐厅名称
+                Company/Restaurant Name
               </label>
               <div className="mt-1">
                 <input
@@ -89,14 +89,14 @@ const Contact = () => {
                   name="company"
                   id="company"
                   className="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                  placeholder="请输入您的公司或餐厅名称"
+                  placeholder="Enter your company or restaurant name"
                 />
               </div>
             </div>
 
             <div>
               <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                留言
+                Message
               </label>
               <div className="mt-1">
                 <textarea
@@ -104,7 +104,7 @@ const Contact = () => {
                   name="message"
                   rows={4}
                   className="shadow-sm focus:ring-primary focus:border-primary block w-full sm:text-sm border-gray-300 rounded-md"
-                  placeholder="请告诉我们您的需求或问题"
+                  placeholder="Tell us about your needs or questions"
                 />
               </div>
             </div>
@@ -114,7 +114,7 @@ const Contact = () => {
                 type="submit"
                 className="w-full flex justify-center py-3 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
               >
-                提交
+                Submit
               </button>
             </div>
           </form>
