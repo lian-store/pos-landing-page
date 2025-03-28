@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Features from './components/Features';
+import Gallery from './components/Gallery';
+import VideoTutorials from './components/VideoTutorials';
+import LogoSlider from './components/LogoSlider';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import FAQ from './components/FAQ';
@@ -14,7 +17,10 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <LogoSlider />
       <Features />
+      <Gallery />
+      <VideoTutorials />
       <Testimonials />
       <Pricing />
       <FAQ />
